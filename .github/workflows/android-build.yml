@@ -109,6 +109,6 @@ jobs:
           pip install --upgrade buildozer
 
       - name: Build APK
-        run: |
-          cd your-kivy-app-directory
-          buildozer android debug
+  run: |
+    cd .
+    buildozer android debug
